@@ -1,4 +1,4 @@
-This repo is just a host for my blog. I did not write any of the code in this project. I will likely make updates to
+This repo is just a host for my blog. I did not write most of the code in this project. I will likely make updates to
 stylesheets, etc, if I encounter problems in my blog.
 
 I learned how to install highlight.js in my blog here: http://www.mmdemirbas.com/2012/08/code-syntax-highlighting-on-blogger.html
