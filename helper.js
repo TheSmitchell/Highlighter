@@ -7,10 +7,12 @@ function format(){
   var eles = document.getElementsByTagName('pre');
   for (i = 0; i < eles.length; i++) {
     var classes = eles[i].className;
-    classes = classes.split(' ');
-    classes.push('paper');
-    classes = classes.join(' ');
-    eles[i].className = classes;
+    if (eles.match(/paper/) === null) {
+      classes = classes.split(' ');
+      classes.push('paper');
+      classes = classes.join(' ');
+      eles[i].className = classes;
+    }
   }
 
 }
