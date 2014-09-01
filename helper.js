@@ -7,9 +7,9 @@ function format(){
   var eles = document.getElementsByTagName('pre');
   for (i = 0; i < eles.length; i++) {
     var classes = eles[i].className;
-    classes.split(' ');
+    classes = classes.split(' ');
     classes.push('paper');
-    classes.join(' ');
+    classes = classes.join(' ');
     eles[i].className = classes;
   }
 
