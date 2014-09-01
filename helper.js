@@ -7,7 +7,7 @@ function format(){
   var eles = document.getElementsByTagName('pre');
   for (i = 0; i < eles.length; i++) {
     var classes = eles[i].className;
-    if (eles.match(/paper/) === null) {
+    if (eles[i].match(/paper/g) === null) {
       classes = classes.split(' ');
       classes.push('paper');
       classes = classes.join(' ');
